@@ -8,3 +8,5 @@ This script is Jamf Pro compatible and can be pasted directly, without modificat
 When running under Jamf Pro, no additional parameters need to be specified.
 
 See https://www.office4mac.com/courses/mgmt300 for the training video on how to use this helper!
+
+This script is copied from https://github.com/pbowden-msft/SignInHelper.
