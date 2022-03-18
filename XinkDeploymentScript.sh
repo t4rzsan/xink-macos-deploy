@@ -1,6 +1,10 @@
 #!/bin/bash
 defaults write com.emailsignature.Xink hideInfobox -int 0
 defaults write com.emailsignature.Xink hideQuitMailInfobox -int 0
+defaults write com.emailsignature.Xink hideEnterAccessCodeMenu -bool false
+defaults write com.emailsignature.Xink hideChangeEmailMenu -bool false
+defaults write com.emailsignature.Xink hideMyProfileMenu -bool false
+defaults write com.emailsignature.Xink hideUpdateTheVersionMenu -bool false 
 defaults write com.emailsignature.Xink isUsingICloudDrive -int 0
 defaults write com.emailsignature.Xink updateSignaturesAutomatically -int 0
 defaults write com.emailsignature.Xink updateSignaturesForMail -int 0
